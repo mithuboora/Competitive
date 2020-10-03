@@ -37,6 +37,7 @@ public class KConcat {
 			maxsumhere=Math.max(arr[i]+maxsumhere, arr[i]);
 			maxsumsofar=Math.max(maxsumsofar, maxsumhere);
 		}
+		System.out.println(maxsumsofar)
 		return maxsumsofar;
 	}
 
